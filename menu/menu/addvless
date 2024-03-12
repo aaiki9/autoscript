@@ -262,7 +262,7 @@ def kirim_pesan(pesan):
 
     response = requests.post(url, params=params)
     return response.json()
-#proses kirim teks/pesan ken bot
+#proses kirim teks/pesan ke bot
 pesan = f"""
 ◇━━━━━━━━━━━━━━━━━━━━━━━◇
 <b>XRAY/VLESS SUCCES CREATED</b>
@@ -318,7 +318,7 @@ TEXT="
 ☘️ » <code>Aktif   :</code> <code>${masaaktif} Hari</code>
 ◇━━━━━━━━━━━━━━━━━━◇
 <i>Notif Transaksi Akun VLESS...</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/alawivpn"},{"text":"TESTI ☘️","url":"https://t.me/configsantritestimoni"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/KyyLearning27"},{"text":"TESTI ☘️","url":"https://t.me/Phoebeatwell17"}]]}'
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
