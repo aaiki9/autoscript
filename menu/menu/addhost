@@ -48,7 +48,7 @@ ipsaya=$(curl -sS ipv4.icanhazip.com)
 #
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/ALAWI-VPN/autoscript/main/REGISTRASI"
+data_ip="https://raw.githubusercontent.com/aaiki9/autoscript/main/REGISTRASI"
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
@@ -129,8 +129,8 @@ TEXT="
 <code>Domain :</code> <code> ${domain}</code>
 <code>IP VPS :</code> <code> ${MYIP}</code>
 ────────────────────
-    <b>☘ ALAWI-VPN-SCRIPT ☘</b>
-"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/alawivpn"},{"text":"ORDER ☘️","url":"https://t.me/muslimvpn"}]]}'
+    <b>☘ KYY-XVPN-SCRIPT ☘</b>
+"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/Kyylearning27"},{"text":"ORDER ☘️","url":"https://t.me/Phoebeatwell17"}]]}'
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 pasang_domain
