@@ -91,7 +91,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/aaiki9/autoscript/main/"
+    REPO="https://github.com/aaiki9/autoscript"
 
 ####
 start=$(date +%s)
@@ -257,7 +257,7 @@ echo $host1 > /etc/xray/domain
 echo $host1 > /root/domain
 echo ""
 elif [[ $host == "2" ]]; then
-#install cf
+#e cf
 wget ${REPO}files/cf.sh && chmod +x cf.sh && ./cf.sh
 rm -f /root/cf.sh
 clear
@@ -334,7 +334,7 @@ TEXT="
 ☘️ » <b>Expired  :</b> <code>${exp}</code>
 ━━━━━━━━━━━━━━━━━━━━━━━
 <i>Auto Notification Before Installed...</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/KyyLearning27"},{"text":"ORDER ☘️","url":"https://t.me/sckyylearning"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/KyyLearning27"},{"text":"ORDER ☘️","url":"https://t.me/Phoebeatwell17"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
