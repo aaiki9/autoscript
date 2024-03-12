@@ -7,13 +7,13 @@ NC='\e[0m'
 apt update -y && apt upgrade -y
 apt install python3 python3-pip git -y
 cd /usr/bin
-wget https://raw.githubusercontent.com/aaiki9/main/bot/bot.zip
+wget https://raw.githubusercontent.com/aaiki9/autoscript/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/aaiki9/main/bot/kyt.zip
+wget https://raw.githubusercontent.com/aaiki9/autoscript/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
