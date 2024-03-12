@@ -27,7 +27,7 @@ AKTIF="VERIFIED"
 TOKEN="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"
 REPO="https://github.com/aaiki9/autoscript/main/REGISTRASI.git"
 EMAIL="ahmadagilarifki9@gmail.com"
-USER="xVPN"
+USER="aaiki9"
 
 
 add-ip() {
