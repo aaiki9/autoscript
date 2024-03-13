@@ -26,7 +26,7 @@ clear;clear;clear
 
   # // Banner
 echo -e ""
-echo -e "${green}AUTOSCRIPT MODIFIED BY KYYLEARNING27"
+echo -e "${green}AUTOSCRIPT MODIFIED BY KYY X-VPN"
 echo -e ""
 while true; do
     read -rp "Masukkan nama kamu (tanpa spasi): " buyer
