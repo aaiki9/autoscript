@@ -1,17 +1,17 @@
-# UP REPO DEBIAN
-<pre><code>apt update -y && apt upgrade -y && update-grub</code></pre>
+# UPDATE & UPGRADE REPO OS DEBIAN
+<pre><code>apt update -y && apt upgrade -y && apt dist-upgrade && sleep 0.5 && reboot</code></pre>
   
   
-# UP REPO UBUNTU
-<pre><code>apt update -y && apt upgrade -y && apt dist-upgrade -y</code></pre>
+# UPDATE & UPGRADE REPO OS UBUNTU
+<pre><code>apt update -y && apt upgrade -y && update-grub && sleep 0.5 && reboot</code></pre>
  
 
 ### INSTALL SCRIPT 
-<pre><code>apt install -y && wget -q https://raw.githubusercontent.com/aaiki9/autoscript/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
+<pre><code>apt install -y wget screen curl && wget -q https://raw.githubusercontent.com/aaiki9/autoscript/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && screen -S setup ./ubu20-deb10-stable.sh</code></pre>
 
-### WORK DI OS
+### TESTED ON OS
 - UBUNTU 18 / 20
-- DEBIAN 9  / 10 ( recommended )
+- DEBIAN 9  / 10
 ### SUPPORT PORT
 ```
 - SSL/TLS : 443 / 8443
