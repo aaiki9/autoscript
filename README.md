@@ -1,19 +1,50 @@
-# TAHAP 1 DEBIAN
-<pre><code>apt update -y && apt upgrade -y && apt dist-upgrade && sleep 0.5 && reboot</code></pre>
-  
-  
-# TAHAP 1.1 UBUNTU
-<pre><code>apt update -y && apt upgrade -y && update-grub && sleep 0.5 && reboot</code></pre>
- 
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=SABDESTORE;By. SABDESTORE" />
+</p>
+### INSTALL SCRIPT 
+<pre><code>apt update -y && apt upgrade -y && apt install -y wget curl lolcate screen && gem install lolcat && wget --no-check-certificate -O setup https://raw.githubusercontent.com/aaiki9/autoscript/main/ubu20-deb10-stable.sh && chmod +x setup && screen -S setup ./setup
+</code></pre>
 
-### TAHAP 2 INSTALLASI
-<pre><code>apt install -y wget screen curl && wget -q https://raw.githubusercontent.com/aaiki9/autoscript/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && screen -S setup ./ubu20-deb10-stable.sh</code></pre>
+### TESTED ON OS 
+- UBUNTU 20.04.05
+- DEBIAN 10
 
-### TESTED ON OS
-- UBUNTU 18 / 20
-- DEBIAN 9  / 10
-### SUPPORT PORT
+### FITUR TAMBAHAN
+- Tambah Swap 1GiB
+- Pemasangan yang dinamis
+- Tuning profile pada server
+- Xray Core
+- Penambahan fail2ban
+- Auto block sebagian ads indo by default
+- Auto clear log per 3 menit
+- Auto delete expired
+- User Details Akun
+
+### PORT INFO
 ```
-- SSL/TLS : 443 / 8443
-- SSHWS   : 80 / 8880 / 8080 / 2082 / 2095 / 2096 / 2022 / 2092
+- TROJAN WS 443
+- TROJAN GRPC 443
+- SHADOWSOCKS WS 443
+- SHADOWSOCKS GRPC 443
+- VLESS WS 443
+- VLESS GRPC 443
+- VLESS NONTLS 80
+- VMESS WS 443
+- VMESS GRPC 443
+- VMESS NONTLS 80
+- SSH WS / TLS 443
+- SSH NON TLS 8880
+- SSH UDP 1-65535
+- OVPN SSL/TCP 1194
+- SLOWDNS 5300
+```
+
+### SETTING CLOUDFLARE
+```
+- SSL/TLS : FULL
+- SSL/TLS Recommender : OFF
+- GRPC : ON
+- WEBSOCKET : ON
+- Always Use HTTPS : OFF
+- UNDER ATTACK MODE : OFF
 ```
