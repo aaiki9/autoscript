@@ -49,7 +49,7 @@
        "streamSettings":{
          "network": "ws",
             "wsSettings": {
-                "path": "/vless /worryfree"
+                "path": "/vless"
           }
         }
      },
@@ -69,7 +69,7 @@
        "streamSettings":{
          "network": "ws",
             "wsSettings": {
-                "path": "/vmess /worryfree"
+                "path": "/vmess"
            }
          }
        },
