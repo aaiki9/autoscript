@@ -24,7 +24,7 @@ clear;clear;clear
 
   # // Banner
 echo -e ""
-echo -e "AUTOSCRIPT MODIFIED BY KYYLEARNING27"
+echo -e "AUTOSCRIPT MODIFIED BY KYY X-VPN"
 sleep 2
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
@@ -326,7 +326,7 @@ TEXT="
 ☘️ » <b>Expired  :</b> <code>${exp}</code>
 ━━━━━━━━━━━━━━━━━━━━━━━
 <i>Auto Notification Before Installed...</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/alawivpn"},{"text":"ORDER ☘️","url":"https://t.me/muslimvpn"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"☘️ ORDER","url":"https://t.me/KyyLearning27"},{"text":"ORDER ☘️","url":"https://t.me/Phoebeatwell17"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
@@ -650,9 +650,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user oceantestdigital@gmail.com
-from oceantestdigital@gmail.com
-password jokerman77 
+user sarahlaurel713@gmail.com
+from sarahlaurel713@gmail.com
+password man12345.
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
