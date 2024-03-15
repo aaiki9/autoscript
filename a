@@ -38,7 +38,7 @@ clear
 echo -e ""
 echo -e "  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e "  \e[1;97;101m            ADD IP IZIN SCRIPT            ${NC}"
-echo -e "  \e[1;97;101m            CODE BY: aaiki9            ${NC}"
+echo -e "  \e[1;97;101m            CODE BY: KYY X-VPN           ${NC}"
 echo -e "  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 
@@ -68,7 +68,7 @@ echo  "### ${user} ${tanggal} ${ip}" >> REGISTRASI
 }
 giting() {
 git add REGISTRASI
-git commit -m "perbarui ip"
+git commit -m "add ip"
 git push
 }
 pointing
