@@ -3,7 +3,7 @@
 </p>
 
 ### INSTALL SCRIPT 
-<pre><code>apt update -y && apt upgrade -y && apt install -y wget curl lolcat screen && gem install lolcat && wget --no-check-certificate -O setup https://raw.githubusercontent.com/aaiki9/autoscript/main/ubu20-deb10-stable.sh && chmod +x setup && screen -S setup ./setup
+<pre><code>apt update -y && apt upgrade -y && apt install -y wget curl lolcat screen && gem install lolcat && wget --no-check-certificate https://raw.githubusercontent.com/aaiki9/autoscript/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 </code></pre>
 
 ### TESTED ON OS 
